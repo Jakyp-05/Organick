@@ -122,12 +122,24 @@ body {
     border: none;
     outline: none;
     border-radius: 36px;
+    font-size: 28px;
+    padding: 10px;
 }
 .cart {
-    width: 376px;
-height: 66px;
-flex-shrink: 0;
-display: flex;
-align-items: center;
-border: 1px solid black;
+    width: 159px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fafafa;
+    padding: 10px;
+    border-radius: 36px;
+}
+.cart span {
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 5px;
 }
